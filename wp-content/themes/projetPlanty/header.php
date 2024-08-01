@@ -60,6 +60,8 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 
 	astra_header();
 
+	
+
 	astra_header_after();
 
 	astra_content_before();

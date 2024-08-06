@@ -1,29 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
-/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
-body html * {
+/* Import de la font Syne depuis Google Fonts et je l'applique sur tous les éléments de la page */
+body * {
    font-family: 'Syne', sans-serif;
 }
-/* On applique un noir sur les paragraphes */
+/* J'applique un noir sur les paragraphes */
 p {
    color: #000000;
 }
-
+/* J'applique et une taille de 16px sur les liens du menu */
 #primary-site-navigation-desktop a {
    font-size: 16px;
 }
 
-/* On applique un gras sur les liens du menu */
+/* J'applique un gras et une taille de 13px sur les liens du menu */
 #primary-site-navigation-desktop a:hover {
    font-weight: bold;
    font-size: 13px;
 }
 
-/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  
-.hover-effect img {
-   transition: all 0.33s ease-in-out;
-   transform: scale(1) translateY(0px);
+#wpforms-submit-240 {
+   margin-left: 130px;
+   padding: 0 40px;
 }
-.hover-effect img:hover {
-   transition: all 0.33s ease-in-out;
-   transform: scale(1.05) translateY(-10px);
-}*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+   #wpforms-submit-240 {
+      margin-left: 90px;
+   }
+}

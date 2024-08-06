@@ -8,9 +8,14 @@ p {
    color: #000000;
 }
 
+#primary-site-navigation-desktop a {
+   font-size: 16px;
+}
+
 /* On applique un gras sur les liens du menu */
-.menu-link:hover {
+#primary-site-navigation-desktop a:hover {
    font-weight: bold;
+   font-size: 13px;
 }
 
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  

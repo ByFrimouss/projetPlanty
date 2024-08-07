@@ -7,9 +7,13 @@ body * {
 p {
    color: #000000;
 }
+
+                        /*********LIEN DU MENU*********/
+
 /* J'applique et une taille de 16px sur les liens du menu */
 #primary-site-navigation-desktop a {
    font-size: 16px;
+   color: #000;
 }
 
 /* J'applique un gras et une taille de 13px sur les liens du menu */
@@ -18,17 +22,29 @@ p {
    font-size: 13px;
 }
 
+                        /*********FORMULAIRE NOUS CONTACTER*********/
+
+/* J'applique une marge pour que le bouton soit centré au formulaire*/
 #wpforms-submit-240 {
    margin-left: 130px;
    padding: 0 40px;
 }
 
+/* J'applique une couleur rouge au passage de la souris sur le bouton*/
+#wpforms-submit-240:hover {
+   background-color: #C02E44 !important;
+}
+
+/* Je précise qu'en format téléphone, mon bouton soit bien centré au formulaire*/
 @media only screen and (min-width: 320px) and (max-width: 767px) {
    #wpforms-submit-240 {
       margin-left: 90px;
    }
 }
 
+                     /*********CARRÉ DE LA PAGE COMMANDE*********/
+
+/* Mise en forme des carré pour afficher le nombre*/
 .nombres {
    display: flex;
    justify-content: center;
@@ -40,24 +56,28 @@ p {
    margin-left: 110px;
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1023px) {
-   .nombres {
-      margin-left: 68px;
-   }
-}
+                        /*********FORMULAIRE COMMANDER*********/
 
+/* J'applique une marge pour que le bouton soit centré au formulaire*/
 #wpforms-submit-377 {
    margin-top: 25px;
    margin-left: 500px;
    padding: 0 40px;
 }
 
+/* J'applique une couleur rouge au passage de la souris sur le bouton*/
+#wpforms-submit-377:hover {
+   background-color: #C02E44 !important;
+}
+
+/* Je précise qu'en format tablette, mon bouton soit bien centré au formulaire*/
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
    #wpforms-submit-377 {
       margin-left: 305px;
    }
 }
 
+/* J'applique une marge entre les deux formulaire pour qu'ils soit plus aérés*/
 #wpforms-377-field_1-container,
 #wpforms-377-field_3-container,
 #wpforms-377-field_5-container {
@@ -70,6 +90,7 @@ p {
    padding-left: 35px;
 }
 
+/* Je précise qu'en format téléphone, mon bouton soit bien centré au formulaire*/
 @media only screen and (min-width: 320px) and (max-width: 767px) {
    #wpforms-submit-486 {
       margin-left: 110px;
